@@ -1,0 +1,293 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Raleway',
+        sans-serif;
+    font-size: 1.6rem;
+}
+
+.hero-shadow {
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .6);
+    z-index: -1;
+
+
+}
+
+.top-hero {
+    position: relative;
+    height: 200px;
+    background-size: cover;
+    z-index: 0;
+}
+
+.top-hero-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 3.6rem;
+    height: 100%;
+
+}
+
+.navbar-brand {
+    font-family: 'Faster One',
+        cursive;
+    font-size: 2.6rem;
+
+
+}
+
+
+
+nav {
+    font-size: 2rem;
+}
+
+.navbar-toggler {
+    font-size: 3rem;
+}
+
+header {
+    font-size: 2rem;
+}
+
+.carousel-item {
+    position: relative;
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    z-index: 0;
+
+
+}
+
+.carousel-img-one {
+    background-image: url(../img/main-carousel-1.jpg);
+}
+
+.carousel-img-two {
+    background-image: url(../img/main-carousel-2.jpg);
+}
+
+.carousel-img-three {
+
+    background-image: url(../img/main-carousel-3.jpg);
+}
+
+@media (min-width:1400px) {
+    .carousel-item {
+        height: 600px;
+    }
+
+    .carousel-img-one {
+        background-image: url(../img/main-carousel-1-hq.jpg);
+    }
+
+    .carousel-img-two {
+        background-image: url(../img/main-carousel-2-hq.jpg);
+    }
+
+    .carousel-img-three {
+
+        background-image: url(../img/main-carousel-3-hq.jpg);
+    }
+}
+
+.home-boxes {
+    padding: 5em 0;
+}
+
+.home-box i {
+    font-size: 4rem;
+
+}
+
+.home-box h3 {
+    font-size: 2.8rem;
+
+}
+
+.home-passion {
+    position: relative;
+    height: 350px;
+    background-image: url(../img/home-passion.jpg);
+    background-position: center;
+    background-size: cover;
+    z-index: 0;
+}
+
+.home-brand h3 {
+    font-weight: bold;
+}
+
+footer.footer a {
+    font-size: 1.6rem;
+}
+
+.aboutus-hero {
+    background-image: url(/img/about-img/hd-wallpaper.jpg);
+    background-position: bottom;
+}
+
+.aboutus-info {
+    background-color: rgb(248, 248, 248);
+}
+
+.aboutus-info .container {
+    padding: 2em 0.5em;
+
+
+}
+
+.aboutus-text {
+    padding: 1.8em;
+
+}
+
+.aboutus-text h3 {
+    margin-bottom: 0.5em;
+    font-size: 2.6rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: underline #0dcaf0;
+}
+
+.aboutus-text-right {
+    text-align: right;
+}
+
+.aboutus-img {
+    height: 300px;
+    object-fit: cover;
+}
+
+.aboutus-bottom i {
+    font-size: 3rem;
+}
+
+.aboutus-bottom h3 {
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+
+.services-hero {
+    background-image: url(../img/services/car-services.jpg);
+    background-position: 0 75%;
+
+}
+.service-hero-box{
+    position: relative;
+    height: 300px;
+    background-size: cover;
+    z-index: 0;
+}
+.service-hero-box p {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 3rem;
+   text-transform: uppercase;
+   text-align: center;
+   color: #fff;
+}
+
+.service-hero-box.box-one {
+    background-image: url(../img/services/engine.jpg);
+    background-size: cover;
+}
+.service-hero-box.box-two {
+    background-image: url(../img/services/visual.jpg);
+    background-size: cover;
+}
+.service-hero-box.box-three {
+    background-image: url(../img/services/car-audio.jpg);
+    background-size: cover;
+}
+.service-hero-box.box-four {
+    background-image: url(../img/services/allinone.jpg);
+    background-size: cover;
+}
+
+.projects-hero{
+    background-image: url(../img/Projekty/project-hero.jpg);
+    background-position: 0 50%;
+}
+.projects img{
+    height: 240px;
+    object-fit: cover;
+}
+.projects .btn{
+   font-size: 1.4rem;
+   text-transform: uppercase;
+}
+.contact-hero{
+    background-image: url(../img/contact/shelby.jpg);
+    background-position: 0 40%;
+}
+
+.contact h2{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 2.6rem;
+}
+.contact input, .contact select, .contact textarea{
+    font-size: 1.6rem;
+}
+.contact-map iframe{
+    width: 60vw;
+    height: 40vw;
+}
+.contact .btn{
+    padding: 0.3em 0.8em;
+    font-size: 2rem;
+}
+
+
+@media (min-width:992px) {
+    .aboutus-info .container {
+        padding: 0;
+    }
+
+    .aboutus-shadow {
+        box-shadow: inset 0 5px 10px -5px rgba(0, 0, 0, .4);
+    }
+
+    .aboutus-text {
+        padding: 5em 0;
+        transform: skew(-15deg);
+
+    }
+
+    .aboutus-text-left {
+        padding-right: 2em;
+        text-align: right;
+    }
+
+    .aboutus-text-right {
+        padding-right: 2em;
+        text-align: right;
+    }
+
+    .aboutus-img {
+        height: auto;
+        transform: skew(-15deg);
+    }
+}
+
+
+
